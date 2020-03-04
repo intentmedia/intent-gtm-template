@@ -1,4 +1,4 @@
-___INFO___
+﻿___INFO___
 
 {
   "displayName": "Intent",
@@ -285,6 +285,8 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 var copyFromWindow = require('copyFromWindow');
 var setInWindow = require('setInWindow');
 
+var defaultTagUrl = "https://a.cdn.intentmedia.net/javascripts/v1/intent_media_core.js";
+
 var IntentMediaProperties = copyFromWindow("IntentMediaProperties") || {};
 
 var tagParams = data.tag_param_array || [];
@@ -315,7 +317,7 @@ if (IntentMedia && IntentMedia.trigger) {
 } else {
   var encodeUri = require('encodeUri');
   var injectScript = require('injectScript');
-  var url = encodeUri(data.tag_url);
+  var url = data.tag_url != "" ? encodeUri(data.tag_url) : encodeUri(defaultTagUrl);
   injectScript(url);
 }
 // Call data.gtmOnSuccess when the tag is finished.
@@ -465,4 +467,4 @@ scenarios: []
 
 ___NOTES___
 
-Created on 03/03/2020, 14:42:03
+Created on 04/03/2020, 18:12:13
