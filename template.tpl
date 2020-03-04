@@ -2,6 +2,7 @@ ___INFO___
 
 {
   "displayName": "Intent",
+  "categories":["ADVERTISING", "ANALYTICS", "EXPERIMENTATION"],
   "description": "Intent",
   "securityGroups": [],
   "id": "cvt_temp_public_id",
