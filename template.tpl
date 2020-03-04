@@ -1,8 +1,15 @@
-﻿___INFO___
+﻿___TERMS_OF_SERVICE___
+
+By creating or modifying this file you agree to Google Tag Manager's Community
+Template Gallery Developer Terms of Service available at
+https://developers.google.com/tag-manager/gallery-tos (or such other URL as
+Google may provide), as modified from time to time.
+
+
+___INFO___
 
 {
   "displayName": "Intent",
-  "categories":["ADVERTISING", "ANALYTICS", "EXPERIMENTATION"],
   "description": "Intent",
   "securityGroups": [],
   "id": "cvt_temp_public_id",
@@ -467,4 +474,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 04/03/2020, 18:12:13
+Created on 04/03/2020, 18:35:41
+
+
