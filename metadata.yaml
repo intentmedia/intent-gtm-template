@@ -1,6 +1,8 @@
 homepage: "https://www.intent.com"
 documentation: "https://www.example.com/documentation"
 versions:
+  - sha: 4b46e6645bab3ab488f542ed82232a5eaec87d93
+    changeNotes: Accept terms of service
   - sha: 9233c30a4f9c935cb8434779eb2b297d06ba4414
     changeNotes: Add default fallback tag URL
   - sha: 4df63ff0d8a00bc8b53f098dc2106876b1bedfb9
