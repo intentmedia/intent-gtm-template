@@ -1,5 +1,7 @@
 homepage: "https://www.intent.com"
 documentation: "https://www.example.com/documentation"
 versions:
+  - sha: 4df63ff0d8a00bc8b53f098dc2106876b1bedfb9
+    changeNotes: Adds categories.
   - sha: ce08f4246b948e2c62e2d54fdf5b50984a15a398
     changeNotes: Initial release.
