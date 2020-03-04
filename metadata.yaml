@@ -1,0 +1,5 @@
+homepage: "https://www.intent.com"
+documentation: "https://www.example.com/documentation"
+versions:
+  - sha: ce08f4246b948e2c62e2d54fdf5b50984a15a398
+    changeNotes: Initial release.
