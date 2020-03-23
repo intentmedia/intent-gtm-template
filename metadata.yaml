@@ -1,5 +1,7 @@
 homepage: "https://www.intent.com"
 versions:
+  - sha: 18ad28879ee7e6ccf0087603c4b30f463104a528
+    changeNotes: add validation regex to tag URL and remove documentation node per advise from Google
   - sha: 4b46e6645bab3ab488f542ed82232a5eaec87d93
     changeNotes: Accept terms of service
   - sha: 9233c30a4f9c935cb8434779eb2b297d06ba4414
