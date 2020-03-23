@@ -75,7 +75,15 @@ ___TEMPLATE_PARAMETERS___
     "defaultValue": "https://a.cdn.intentmedia.net/javascripts/v1/intent_media_core.js",
     "simpleValueType": true,
     "name": "tag_url",
-    "type": "TEXT"
+    "type": "TEXT",
+    "valueValidators": [
+      {
+        "type": "REGEX",
+        "args": [
+          "^https:\\/\\/a\\.cdn\\.intentmedia\\.net\\/javascripts\\/v1\\/.*$"
+        ]
+      }
+    ]
   },
   {
     "help": "Select the corresponding variables that will enrich the tag with travel intents.",
@@ -474,6 +482,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 04/03/2020, 18:35:41
+Created on 23/03/2020, 10:31:28
 
 

@@ -1,5 +1,4 @@
 homepage: "https://www.intent.com"
-documentation: "https://www.example.com/documentation"
 versions:
   - sha: 4b46e6645bab3ab488f542ed82232a5eaec87d93
     changeNotes: Accept terms of service
